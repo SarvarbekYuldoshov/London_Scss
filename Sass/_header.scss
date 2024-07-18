@@ -1,0 +1,165 @@
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/open-sans-v40-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v40-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    background: rgb(224, 79, 79);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header__item{
+    margin: 20px;
+}
+.header__link{
+    font-family: "Open Sans"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.header__link:hover{
+    font-family: "Open Sans"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF; 
+    background: blue;
+    border-radius: 5px;  
+}
+.header__button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: #FFFFFF;
+}
+.header__button:hover{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid yellow;
+    background:blue;
+    color: #FFFFFF;
+}
+.header__box{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.box__list{
+    list-style: none;
+    display: flex;
+}
+.box__item{
+    margin: 20px;
+}
+.box__text{
+    font-family: "Cera Round Pro"  ,sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.box__title{
+    margin-top: 20px;
+    font-family: Cera Round Pro;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF; 
+    width: 555px;   
+}
+.box__text-one{
+    margin-top: 20px;
+    width: 453px;
+    font-family: "Open Sans"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.box__button{margin-top: 20px;
+    font-family: "Cera Round Pro"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;    
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:  1px solid whitesmoke;
+    background: transparent;
+    color: #FFFFFF;
+}
+.box__button:hover{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: "Cera Round Pro"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;    
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:  1px solid whitesmoke;
+    background:blue;
+}
+.box__img{
+    margin-left: 800px;
+}

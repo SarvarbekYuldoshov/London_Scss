@@ -1,0 +1,32 @@
+.hover__container{
+    list-style: none;
+    display: flex;
+}
+.hover__button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-family: "Open Sans"  ,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left; 
+    border-radius: 20px;  
+    border: 1px solid brown;
+    background: transparent; 
+}
+.hover__button:hover{
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-family: "Open Sans"  ,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left; 
+    border-radius: 20px;  
+    border: 1px solid brown; 
+    background:brown;
+}
+

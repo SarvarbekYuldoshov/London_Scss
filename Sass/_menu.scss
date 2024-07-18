@@ -1,0 +1,27 @@
+.menu__list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.menu__item{
+    margin: 10px;
+}
+.menu__title{
+    margin-top: 10px;
+    width: 270px;
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;    
+}
+.menu__text{
+    margin-top: 10px;
+    font-family: "Open Sans"  ,sans-serif;
+    color: #BB2339;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: center;    
+}

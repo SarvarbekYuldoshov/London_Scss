@@ -1,0 +1,30 @@
+.wrapper__list{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.wrapper__item{
+    margin: 20px;
+}
+.wrapper__title{
+    margin-top: 10px;
+    font-family: "Open Sans"  ,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+    color: #242424;    
+}
+.wrapper__text{
+    margin-top: 10px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: center;
+    color: #BB2339;    
+}
+.wrapper__img{
+    margin-top: 100px;
+    margin-left: 1050px;
+}

@@ -1,0 +1,729 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/open-sans-v40-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v40-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v40-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v40-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: rgb(224, 79, 79);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  margin: 20px;
+}
+
+.header__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.header__link:hover {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
+  background: blue;
+  border-radius: 5px;
+}
+
+.header__button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.header__button:hover {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid yellow;
+  background: blue;
+  color: #FFFFFF;
+}
+
+.header__box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box__list {
+  list-style: none;
+  display: flex;
+}
+
+.box__item {
+  margin: 20px;
+}
+
+.box__text {
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.box__title {
+  margin-top: 20px;
+  font-family: Cera Round Pro;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 117px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
+  width: 555px;
+}
+
+.box__text-one {
+  margin-top: 20px;
+  width: 453px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.box__button {
+  margin-top: 20px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.box__button:hover {
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid whitesmoke;
+  background: blue;
+}
+
+.box__img {
+  margin-left: 800px;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__title {
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: brown;
+}
+
+.wrapper__list {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.wrapper__item {
+  margin: 20px;
+}
+
+.wrapper__title {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: center;
+  color: #242424;
+}
+
+.wrapper__text {
+  margin-top: 10px;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.68px;
+  text-align: center;
+  color: #BB2339;
+}
+
+.wrapper__img {
+  margin-top: 100px;
+  margin-left: 1050px;
+}
+
+.wrap__container {
+  list-style: none;
+}
+
+.wrap__title {
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #BB2339;
+}
+
+.hover__container {
+  list-style: none;
+  display: flex;
+}
+
+.hover__button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  border-radius: 20px;
+  border: 1px solid brown;
+  background: transparent;
+}
+
+.hover__button:hover {
+  color: aliceblue;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  border-radius: 20px;
+  border: 1px solid brown;
+  background: brown;
+}
+
+.menu__list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.menu__item {
+  margin: 10px;
+}
+
+.menu__title {
+  margin-top: 10px;
+  width: 270px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: center;
+}
+
+.menu__text {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #BB2339;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.68px;
+  text-align: center;
+}
+
+.tellus__list {
+  list-style: none;
+  text-align: center;
+}
+
+.tellus__text {
+  margin-top: 10px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+}
+
+.tellus__title {
+  color: brown;
+  margin-top: 15px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px;
+  letter-spacing: 0.03em;
+}
+
+.tellus__img {
+  margin-top: 5px;
+}
+
+.like__list {
+  list-style: none;
+  display: flex;
+}
+
+.like__title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+
+.like__text {
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.like__text-one {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+}
+
+.like__item {
+  margin: 20px;
+}
+
+.like__img-one {
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.like__img {
+  margin-top: 30px;
+  margin-left: 1000px;
+}
+
+.head__container {
+  list-style: none;
+  text-align: center;
+}
+
+.head__text {
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+}
+
+.head__title {
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  letter-spacing: 0.03em;
+  color: brown;
+}
+
+.head__img {
+  margin-top: 10px;
+}
+
+.About__list {
+  list-style: none;
+  display: flex;
+}
+
+.About__item {
+  margin: 20px;
+}
+
+.About__title {
+  margin-top: 10px;
+  width: 332px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+
+.About__text {
+  margin-top: 10px;
+  width: 361px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.About__button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #BB2339;
+  background: transparent;
+  border: none;
+}
+
+.About__button:hover {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: whitesmoke;
+  background: blue;
+}
+
+.About__button-one {
+  margin-left: 100px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  background: transparent;
+  border: none;
+}
+
+.About__button-two {
+  margin-top: 40px;
+  margin-left: 550px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  background: transparent;
+  border: 1px solid brown;
+}
+
+.About__button-two:hover {
+  margin-top: 40px;
+  margin-left: 550px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: aliceblue;
+  background: brown;
+  border: 1px solid rgb(13, 11, 156);
+}
+
+.About__img-one {
+  width: 1200px;
+  height: 700px;
+}
+
+.About__img {
+  width: 300px;
+}
+
+.grill__list {
+  list-style: none;
+  display: flex;
+}
+
+.grill__text {
+  margin-left: 200px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.grill__title {
+  margin-left: 20px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.grill__text-one {
+  margin-top: 10px;
+  margin-left: 200px;
+  width: 490px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #AAAAAA;
+}
+
+.grill__img {
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.grill__button {
+  margin-top: 20px;
+  margin-left: 200px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid blue;
+  color: red;
+  background: transparent;
+}
+
+.grill__button:hover {
+  margin-top: 20px;
+  margin-left: 200px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid blue;
+  color: whitesmoke;
+  background: blue;
+}
+
+.grill__img-one {
+  margin-left: 20px;
+  width: 480px;
+}
+
+.body__container {
+  background: rgb(242, 70, 70);
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.body__list {
+  list-style: none;
+  text-align: center;
+}
+
+.body__text {
+  margin-top: 30px;
+  color: antiquewhite;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+}
+
+.body__title {
+  margin-top: 20px;
+  color: antiquewhite;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.body__text-one {
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.body__input {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 40px;
+  background: blanchedalmond;
+  border: 2px solid blue;
+}
+
+.body__input:hover {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 40px;
+  color: #bf0a0a;
+  border: 1px solid blue;
+}
+
+.body__button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  background: transparent;
+  color: whitesmoke;
+}
+
+.body__button:hover {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  background: blue;
+  color: rgb(240, 241, 245);
+}
+
+.lang {
+  margin-top: -50px;
+}
+
+.lang__container {
+  background: rgb(242, 70, 70);
+  border-radius: 20px;
+  max-width: 1200px;
+}
+
+.lang__list {
+  text-align: center;
+  margin-top: 200px;
+  list-style: none;
+  display: flex;
+}
+
+.lang__item-one {
+  margin-left: 50px;
+}
+
+.lang__item-two {
+  margin-left: -150px;
+}
+
+.lang__item-three {
+  margin-left: 150px;
+}
+
+.lang__title {
+  width: 450px;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 41.6px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: aliceblue;
+}
+
+.lang__text {
+  width: 300px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: aliceblue;
+}
+
+.lang__title-one {
+  width: 350px;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

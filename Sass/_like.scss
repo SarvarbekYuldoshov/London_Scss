@@ -1,0 +1,38 @@
+.like__list{
+    list-style: none;
+    display: flex;
+}
+.like__title{
+    font-family: "Inter" ,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;    
+}
+.like__text{
+    margin-top: 10px;
+    font-family: "Inter"  ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;    
+}
+.like__text-one{
+    margin-top: 10px;
+    font-family: "Roboto"  ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+}
+.like__item{
+    margin: 20px;
+}
+.like__img-one{
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.like__img{
+    margin-top: 30px;
+    margin-left: 1000px;
+}
