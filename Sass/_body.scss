@@ -53,6 +53,8 @@
     border-radius: 40px;
     color: #bf0a0a;
     border:  1px solid blue;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .body__button{
     padding: 10px 20px;
@@ -67,4 +69,6 @@
     border: 1px solid blue;
     background:blue;
     color: rgb(240, 241, 245);
+    transform: scale(1.1);
+    transition: 1s;
 }
