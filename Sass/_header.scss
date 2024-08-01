@@ -89,6 +89,8 @@
     border: 1px solid yellow;
     background:blue;
     color: #FFFFFF;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .header__box{
     max-width: 1200px;
@@ -159,6 +161,8 @@
     border-radius: 30px;
     border:  1px solid whitesmoke;
     background:blue;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .box__img{
     margin-left: 800px;
